@@ -1,0 +1,1530 @@
+section.nav {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  position: fixed;
+  position: relative;
+  top: -10px;
+  left: -8px;
+  height: 85px;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 2;
+  backdrop-filter: blur(4px);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+section button.sob {
+  font-weight: 500;
+  position: absolute;
+  left: 450px;
+  top: 23px;
+  font-weight: 700;
+  background-color: #40E0D0;
+  line-height: 1;
+  border-radius: 10px;
+  border-bottom: 10px solid #20B2AA;
+  width: 260px;
+  height: 50px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  border: none;
+
+  transition: transform 0.4s ease, color 0.4s ease;
+}
+
+h1 {
+  font-weight: 700;
+  position: absolute;
+  left: 100px;
+  top: -17px;
+  background-color: #40E0D0;
+  font-family: "Ubuntu", sans-serif;
+  width: 260px;
+  height: 55px;
+  font-size: 50px;
+  border-radius: 10px;
+  line-height: 1;
+  border-bottom: 10px solid #20B2AA;
+  box-shadow: 0 0 10px #20B2AA;
+
+}
+section button.account {
+  font-weight: 500;
+  position: absolute;
+  left: 750px;
+  top: 23px;
+  font-weight: 700;
+  background-color: #40E0D0;
+  line-height: 1;
+  border-radius: 10px;
+  width: 260px;
+  height: 50px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+  border: none;
+
+  transition: transform 0.4s ease, color 0.4s ease;
+}
+h3 {
+  font-weight: 500;
+  position: absolute;
+  left: 980px;
+  font-weight: 700;
+  background-color: #40E0D0;
+  width: 260px;
+  height: 30px;
+  font-size: 27px;
+  border-radius: 10px;
+  line-height: 1;
+  border-bottom: 10px solid #20B2AA;
+}
+img.tel {
+  position: absolute;
+  left: 1275px;
+  top: 21px;
+  width: 70px;
+  height: 70px;
+  animation: spin1 4s linear 0s infinite normal none running;
+  left: 100px;
+  top: 200px;
+}
+img.dis {
+  position: absolute;
+  left: 178px;
+  top: 182px;
+  width: 115px;
+  height: 115px;
+  animation: spin2 6s linear 0s infinite normal none running;
+}
+img.st {
+  position: absolute;
+  left: 300px;
+  top: 206px;
+  width: 71px;
+  height: 71px;
+  border-radius: 115px;
+  animation: spin3 8s linear 0s infinite normal none running;
+}
+section button.sob:hover {
+  transform: scale(1.05);
+
+}
+section button.account:hover {
+  transform: scale(1.05);
+}
+@keyframes spin1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin3 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+section video.bg-video {
+  position: relative;
+  top: -61px;
+  left: -10px;
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+}
+p.p1 {
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: #7FFFD4;
+  background-color: #DEB887;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  background-color: rgba(222, 184, 135, 0.6);
+  width: 750px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 50px;
+  animation: appiar 2s ease-in-out 0s alternate;
+  backdrop-filter: blur(7px);
+}
+
+div h1.heroforge {
+  position: absolute;
+  display: inline-block;    
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #7FFFD4;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  z-index: 1;
+  animation: appiar 2s ease-in-out 0s alternate, colorChange 3s ease-in-out 0s infinite alternate;
+}
+@keyframes colorChange {
+  0% {
+    color: #B22222;
+  }
+  50% {
+    color: #0000CD;
+  }
+  100% {
+    color: #7CFC00;
+  }
+}
+@keyframes appiar {
+  from {
+    transform: translate(-50%, -50%) translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%) translateY(0px);
+    opacity: 1;
+  }
+}
+img.tel:hover {
+  animation-play-state: paused;
+}
+img.dis:hover {
+  animation-play-state: paused;
+}
+img.st:hover {
+  animation-play-state: paused;
+}
+section.shop {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #7B68EE;
+  width: 95.4%;
+  height: 2000px;
+  left: -10px;
+  top: -255px;
+
+  animation: colorchange1 5s ease-in-out 0s infinite alternate;
+  transition: background-color 0.6s ease, transform 0.4s ease;
+}
+section h2.molot2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+section img.molot {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+section div.tovar1 {
+  position: relative;
+  left: 1673px;
+  top: -550px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+}
+section p.molot3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+h2.molot2 {
+  text-align: center;
+  margin-top: 10px;
+}
+section button.buy-button {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -10px;
+  height: 20px;;
+  transition: transform 0.5s ease, color 0.4s ease;
+
+}
+section button.buy-button:hover {
+  transform: scale(1.05);
+}
+div img.sit {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+h2.sit1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  left: 8px;
+}
+section div.tovar2 {
+  position: relative;
+  left: 1746px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  top: -550px;
+  width: 300px;
+
+}
+div p.sit2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+section button.buy-button1 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -10px;
+  height: 20px;
+
+  transition: transform 0.5s ease, color 0.4s ease;
+}
+section button.buy-button1:hover {
+  transform: scale(1.05);
+}
+div img.pistol {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+h2.pistol2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  left: 8px;
+  position: relative;
+  left: 65px;
+}
+section div.tovar3 {
+  position: relative;
+  left: 1814px;
+  top: -550px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+}
+div p.pistol3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+section button.buy-button2 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -10px;
+  height: 20px;
+
+  transition: transform 0.5s ease, color 0.4s ease;
+}
+section button.buy-button2:hover {
+  transform: scale(1.05);
+}
+div img.per {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+h2.per2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+}
+section div.tovar4 {
+  position: relative;
+  left: 1868px;
+  top: -550px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+}
+div p.per3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+section button.buy-button3 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -10px;
+  height: 20px;
+
+  transition: transform 0.5s ease, color 0.4s ease;
+}
+section button.buy-button3:hover {
+  transform: scale(1.05);
+}
+@keyframes colorchange1 {
+  0% {
+    background-color: #000000;
+  }
+  50% {
+    background-color: #4B0082
+  }
+  100% {
+    background-color: #7B68EE;
+  }
+}
+section h2.fuf1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+section img.fuf {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+section div.tovar9 {
+  position: relative;
+  left: -735px;
+  top: 350px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+  height: 360px;
+}
+section p.fuf2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+}
+h2.fuf1 {
+  text-align: center;
+  margin-top: 10px;
+}
+section button.buy-button8 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -10px;
+  height: 20px;;
+  transition: transform 0.5s ease, color 0.4s ease;
+
+}
+section button.buy-button8:hover {
+  transform: scale(1.05);
+}
+div img.log {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+h2.log1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  left: 50px;
+}
+section div.tovar10 {
+  position: relative;
+  top: 350px;
+  left: -670px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+  height: 356px;
+}
+div p.log2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+section button.buy-button9 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  height: 20px;
+  top: -10px;
+
+  transition: transform 0.5s ease, color 0.4s ease;
+}
+section button.buy-button9:hover {
+  transform: scale(1.05);
+}
+div img.dom {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+h2.dom1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  position: relative;
+  left: 55px;
+}
+section div.tovar11 {
+  position: relative;
+  top: 350px;
+  left: -590px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+}
+div p.dom2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+section button.buy-button10 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -20px;
+  height: 20px;
+
+  transition: transform 0.5s ease, color 0.4s ease;
+}
+section button.buy-button10:hover {
+  transform: scale(1.05);
+}
+div img.mks {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+h2.mks1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  left: 70px;
+}
+section div.tovar12 {
+  position: relative;
+  top: 350px;
+  left: -530px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+  height: 360px;
+}
+div p.mks2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 20px;
+}
+section button.buy-button11 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -10px;
+  height: 20px;
+
+  transition: transform 0.5s ease, color 0.4s ease;
+}
+section button.buy-button11:hover {
+  transform: scale(1.05);
+}
+section h2.kru1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+section img.kru {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+section div.tovar13 {
+  position: relative;
+  left: -1935px;
+  top: 800px;
+  height: 440px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+}
+section p.kru2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 30px;
+}
+h2.kru1 {
+  text-align: center;
+  margin-top: 10px;
+}
+section button.buy-button12 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -10px;
+  height: 20px;;
+  transition: transform 0.5s ease, color 0.4s ease;
+
+}
+section button.buy-button12:hover {
+  transform: scale(1.05);
+}
+section h2.och1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+section img.och {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+section div.tovar14 {
+  position: relative;
+  left: -1870px;
+  top: 800px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+}
+section p.och2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+h2.och1 {
+  text-align: center;
+  margin-top: 10px;
+}
+section button.buy-button13 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -10px;
+  height: 20px;;
+  transition: transform 0.5s ease, color 0.4s ease;
+
+}
+section button.buy-button13:hover {
+  transform: scale(1.05);
+}
+div img.tep {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+  height: 280px;
+}
+h2.tep1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  position: relative;
+  left: 88px;
+}
+section div.tovar15 {
+  position: relative;
+  top: 800px;
+  left: -1790px;
+  height: 437px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+}
+div p.tep2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+section button.buy-button14 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -10px;
+  height: 20px;
+
+  transition: transform 0.5s ease, color 0.4s ease;
+}
+section button.buy-button14:hover {
+  transform: scale(1.05);
+}
+section h2.bro1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+section img.bro {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+section div.tovar16 {
+  position: relative;
+  left: -1730px;
+  top: 800px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+  height: 440px;
+}
+section p.bro2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+h2.bro1 {
+  text-align: center;
+  margin-top: 10px;
+}
+section button.buy-button15 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -25px;
+  height: 20px;;
+  transition: transform 0.5s ease, color 0.4s ease;
+
+}
+section button.buy-button15:hover {
+  transform: scale(1.05);
+}
+
+section h2.bet1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+section img.bet {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+section div.tovar5 {
+  position: relative;
+  left: 465px;
+  top: -67px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+}
+section p.bet2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+h2.bet1 {
+  text-align: center;
+  margin-top: 10px;
+}
+section button.buy-button4 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -10px;
+  height: 20px;;
+  transition: transform 0.5s ease, color 0.4s ease;
+
+}
+section button.buy-button4:hover {
+  transform: scale(1.05);
+}
+div img.gru {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+h2.gru1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  left: 80px;
+}
+section div.tovar6 {
+  position: relative;
+  top: -69px;
+  left: 540px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+  height: 340px;
+
+}
+div p.gru2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+section button.buy-button5 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  height: 20px;
+
+  transition: transform 0.5s ease, color 0.4s ease;
+}
+section button.buy-button5:hover {
+  transform: scale(1.05);
+}
+div img.sok {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+h2.sok1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  position: relative;
+  left: 25px;
+}
+section div.tovar7 {
+  position: relative;
+  top: -70px;
+  left: 610px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+}
+div p.sok2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+section button.buy-button6 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -20px;
+  height: 20px;
+
+  transition: transform 0.5s ease, color 0.4s ease;
+}
+section button.buy-button6:hover {
+  transform: scale(1.05);
+}
+div img.mot {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+h2.mot1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  left: 70px;
+}
+section div.tovar8 {
+  position: relative;
+  top: -70px;
+  left: 670px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+  height: 340px;
+}
+div p.mot2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+section button.buy-button7 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: 10px;
+  height: 20px;
+
+  transition: transform 0.5s ease, color 0.4s ease;
+}
+section button.buy-button7:hover {
+  transform: scale(1.05);
+}
+h2.shop2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 10px;
+}
+h3.shop3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  top: -50px;
+  left: 530px;
+  z-index: 1;
+  width: 500px;
+  height: 100px;
+  background-color: rgba(181, 86, 210, 0.4);
+  border: none;
+  animation: up_down 3s ease-in-out 0s infinite alternate;
+  transition: transform 0.5s ease;
+}
+@keyframes up_down  {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-30px);
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+section.footer {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  position: relative;
+  left: 10px;
+  top: -280px;
+  width: 100vw;
+  height: 200px;
+  line-height: 50px;
+  padding-bottom: -100px;
+  margin-bottom: -1000px;
+}
+body {
+  height: 60px;
+  overflow-x: hidden;
+  background-color: black;
+  padding-bottom: 100px;
+}
+h2.footer1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+button.start {
+  font-weight: 500;
+  position: relative;
+  left: 640px;
+  font-weight: 700;
+  background: linear-gradient(to right, #0000CD, #7B68EE);
+  line-height: 1;
+  border-radius: 10px;
+  width: 260px;
+  height: 50px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  border: none;
+  color: white;
+  z-index: 1;
+
+  transition: transform 0.4s ease, color 0.4s ease;
+}
+button.start:hover {
+  transform: translateY(-10px);
+}
+img.company-logo {
+  position: relative;
+  left: -15px;
+  top: -167px;
+  width: 140px;
+  height: 90px;
+}
+h2.fot9 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  left: 100px;
+  top: -280px;
+  color: white;
+}
+p.fot10 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  position: relative;
+  left: 100px;
+  top: -320px;
+  color: white;
+}
+p.footer3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  position: relative;
+  left: 50px;
+  top: 120px;
+  font-size: 27px;
+  color: white;
+}
+img.logo {
+  position: relative;
+  width: 140px;
+  height: 90px;
+  left: -20px;
+  top: 3px;
+}
+button.perevod {
+  font-weight: 500;
+  position: relative;
+  top: -34px;
+  left: 1180px;
+  font-weight: 700;
+  background-color: #40E0D0;
+  line-height: 1;
+  border-radius: 10px;
+  width: 119px;
+  height: 50px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  border: none;
+
+  transition: transform 0.4s ease, color 0.4s ease;
+}
+button.perevod:hover {
+  transform: scale(1.05);
+}
+h3.weapon {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  color: white;
+}
+video.bg-video2 {
+  position: absolute;
+  left: 1020px;
+  top: 40px;
+  width: 350px;
+  height: 350px;
+  border-radius: 100px;
+}
+img.add-img {
+  width: 150px;
+  height: 250px;
+  border-radius: 15px;
+}
+div h2.add-text {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  position: absolute;
+  top: -35px;
+  left: 80px;
+  font-size: 40px;
+  color: red;
+}
+div p.add-text2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  position: absolute;
+  top: 140px;
+  left: 10px;
+  color: red;
+  font-size: 24px;
+  text-align: center;
+}
+div.reclama {
+  position: fixed;
+  z-index: 9999;
+  left: 0px;
+  top: 0px;
+  display: none
+}
+div div.inner {
+  position: relative;
+  top: 200px;
+}
+button.close {
+  position: absolute;
+  top: -15px;
+  left: 139px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: red;
+  cursor: pointer;
+}
+button.close:hover {
+  animation: spin4 4s linear 0s infinite normal none running;
+}
+@keyframes spin4 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+h2.moi {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: #7FFFD4;
+  background-color: #DEB887;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  background-color: rgba(222, 184, 135, 0.6);
+  width: 750px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 50px;
+  animation: appiar 2s ease-in-out 0s alternate;
+  backdrop-filter: blur(7px);
+
+}
+video.ac-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+body.account-body {
+  overflow: hidden;
+}
+.register-form {
+  position: relative;
+  top: 10%;
+  margin-top: 400px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  border-radius: 15px;
+  width: 400px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  backdrop-filter: blur(3px);
+  animation: appiar 2s ease-in-out 0s alternate;
+}
+
+.register-form h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.register-form input:focus {
+  outline: 2px solid #3b82f6;
+}
+
+.register-form .button-regi {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #3b82f6;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+  z-index: 9999;
+}
+.register-form .button-regi:hover {
+  transform: scale(1.05);
+}
+h2.regi {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  color: white;
+  top: 10%;
+  margin-top: -600px;
+  font-size: 60px;
+  left: 88%;
+  transform: translate(-50%, -50%);
+  animation: appiar 2s ease-in-out 0s alternate;
+}
+img.bin-img {
+  position: fixed;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  object-fit: cover;
+  z-index: 9999;
+  left: 1410px;
+  top: 620px;
+  animation: spin5 15s linear 0s infinite normal none running;
+}
+img.bin-img:hover {
+  animation-play-state: paused;
+}
+@keyframes spin5 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+@media (max-width: 600px) {
+  section.nav {
+    width: 100%;
+  }
+  img.logo {
+    position: relative;
+    left: -20px;
+    top: 5px;
+    width: 120px;
+    height: 80px;
+  }
+  h1 {
+    position: relative;
+    top: -100px;
+    left: 70px;
+  }
+  section button.sob {
+    position: relative;
+    top: -200px;
+    left: 350px;
+    height: 69px;
+    width: 110px;
+  }
+  section button.account {
+    position: relative;
+    top: -210px;
+    left: 360px;
+    height: 69px;
+    width: 115px;
+  }
+  button.perevod {
+    position: relative;
+    top: -170px;
+    left: -220px;
+    height: 30px;
+    width: 115px;
+  }
+  p.p1 {
+    position: relative;
+    top: -220px;
+    left: 10x;
+    width: 500px;
+    height: 170px;
+    font-size: 40px;
+  }
+  h3.shop3 {
+    position: relative;
+    font-size: 10px;
+    top: -10px;
+  }
+  h1.heroforge {
+    position: relative;
+    font-size: 30px;
+    width: 155px;
+    height: 30px;
+    margin-top: -195px;
+  }
+  video.bg-video {
+    position: relative;
+    width: 2000px;
+    margin-left: 17px !important;
+  }
+  section.shop {
+    position: relative;
+    top: -430px;
+    height: 3450px;
+  }
+  .tovar1 {
+    position: relative;
+    margin-top: -1500px;
+    transform: translateX(380px);
+  }
+  .tovar2 {
+    position: absolute;
+    margin-top: -1500px;
+    transform: translateX(320px);
+  }
+  .tovar3 {
+    position: relative;
+    transform: translateY(-290px) translateX(-360px);;
+  }
+  .tovar4 {
+    position: relative;
+    transform: translateY(-290px) translateX(-400px);;
+  }
+  .tovar5 {
+    position: absolute;
+    transform: translateY(-360px) translateX(380px);;
+  }
+  .tovar6 {
+    position: relative;
+    transform: translateY(-360px) translateX(330px);;
+  }
+  .tovar7 {
+    position: relative;
+    transform: translateY(-0px) translateX(-367px);;
+  }
+  .tovar8 {
+    position: relative;
+    transform: translateY(0px) translateX(-397px);;
+  }
+  .tovar9 {
+    position: relative;
+    transform: translateY(-60px) translateX(380px);;
+  }
+  .tovar10 {
+    position: relative;
+    transform: translateY(-60px) translateX(340px);;
+  }
+  .tovar11 {
+    position: relative;
+    transform: translateY(320px) translateX(-360px);;
+  }
+  .tovar12 {
+    position: relative;
+    transform: translateY(320px) translateX(-400px);;
+  }
+  .tovar13 {
+    position: relative;
+    transform: translateY(280px) translateX(385px);;
+  }
+  .tovar14 {
+    position: relative;
+    transform: translateY(280px) translateX(330px);;
+  }
+  .tovar15 {
+    position: relative;
+    transform: translateY(730px) translateX(-360px);;
+  }
+  .tovar16 {
+    position: relative;
+    transform: translateY(730px) translateX(-410px);;
+  }
+  section.footer {
+    height: 0px;
+  }
+button.start {
+  position: relative;
+  left: 150px;
+  top: -60px;
+}
+h2.footer1 {
+  position: relative;
+  top: -50px;
+}
+img.tel {
+  position: absolute;
+  top: 250px;
+}
+img.dis {
+  position: absolute;
+  top: 230px;
+}
+img.st {
+  position: absolute;
+  top: 255px;
+}
+img.bin-img {
+  position: fixed;
+  top: 700px;
+  left: 500px;
+}
+h2.regi {
+  position: relative;
+  left: 410px;
+}
+
+
+  
+  
+  
+}

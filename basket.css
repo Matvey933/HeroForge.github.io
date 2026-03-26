@@ -1,0 +1,1214 @@
+section.logo {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  position: fixed;
+  position: relative;
+  top: -10px;
+  left: -8px;
+  height: 85px;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 2;
+  backdrop-filter: blur(4px);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+h1 {
+  font-weight: 700;
+  position: absolute;
+  left: 100px;
+  top: -17px;
+  background-color: #40E0D0;
+  font-family: "Ubuntu", sans-serif;
+  width: 260px;
+  height: 55px;
+  font-size: 50px;
+  border-radius: 10px;
+  line-height: 1;
+  border-bottom: 10px solid #20B2AA;
+  box-shadow: 0 0 10px #20B2AA;
+}
+section video.bg-video {
+  position: relative;
+  top: -61px;
+  left: -10px;
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+}
+div h3.bin {
+  position: absolute;
+  display: inline-block;    
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #7FFFD4;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  z-index: 1;
+  animation: colorChange 10s ease-in-out 0s infinite alternate;
+}
+@keyframes colorChange {
+  0% {
+    color: #B22222;
+  }
+  50% {
+    color: #0000CD;
+  }
+  100% {
+    color: #7CFC00;
+  }
+}
+img.logo {
+  position: relative;
+  width: 140px;
+  height: 90px;
+  left: -20px;
+  top: 3px;
+}
+p.p1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: #7FFFD4;
+  background-color: #DEB887;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  background-color: rgba(222, 184, 135, 0.6);
+  width: 750px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 50px;
+  animation: colorChange 2s ease-in-out 0s alternate, appiar 2s ease-in-out 0s alternate;
+  backdrop-filter: blur(7px);
+}
+@keyframes appiar {
+  from {
+    transform: translate(-50%, -50%) translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, -50%) translateY(0px);
+    opacity: 1;
+  }
+}
+section.shop {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #7B68EE;
+  width: 95.4%;
+  height: 500px;
+  left: -10px;
+  top: -117px;
+
+  animation: colorchange1 5s ease-in-out 0s infinite alternate;
+  transition: background-color 0.6s ease, transform 0.4s ease;
+}
+section h2.molot2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+section img.molot {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+section div.tovar1 {
+  position: relative;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+  display: none;
+  left: -580px;
+  top: -45px;
+  height: 435px;
+}
+section p.molot3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+h2.molot2 {
+  text-align: center;
+  margin-top: 10px;
+}
+section button.buy-button {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -10px;
+  height: 20px;;
+  transition: transform 0.5s ease, color 0.4s ease;
+
+}
+section button.buy-button:hover {
+  transform: scale(1.05);
+}
+div img.sit {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+h2.sit1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  left: 8px;
+}
+section div.tovar2 {
+  position: relative;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+  display: none;
+  left: -580px;
+  top: -50px;
+
+}
+div p.sit2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+section button.buy-button1 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -10px;
+  height: 20px;
+
+  transition: transform 0.5s ease, color 0.4s ease;
+}
+section button.buy-button1:hover {
+  transform: scale(1.05);
+}
+div img.pistol {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+h2.pistol2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  left: 8px;
+  position: relative;
+  left: 65px;
+}
+section div.tovar3 {
+  position: relative;
+  left: -580px;
+  top: -50px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+  display: none;
+}
+div p.pistol3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+section button.buy-button2 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -10px;
+  height: 20px;
+
+  transition: transform 0.5s ease, color 0.4s ease;
+}
+section button.buy-button2:hover {
+  transform: scale(1.05);
+}
+div img.per {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+h2.per2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+}
+section div.tovar4 {
+  position: relative;
+  left: -580px;
+  top: -50px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+  display: none;
+}
+div p.per3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+section button.buy-button3 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -10px;
+  height: 20px;
+
+  transition: transform 0.5s ease, color 0.4s ease;
+}
+section button.buy-button3:hover {
+  transform: scale(1.05);
+}
+@keyframes colorchange1 {
+  0% {
+    background-color: #000000;
+  }
+  50% {
+    background-color: #4B0082
+  }
+  100% {
+    background-color: #7B68EE;
+  }
+}
+section h2.fuf1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+section img.fuf {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+section div.tovar9 {
+  position: absolute;
+  left: 767px;
+  top: 33px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+  height: 440px;
+  display: none;
+}
+section p.fuf2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+}
+h2.fuf1 {
+  text-align: center;
+  margin-top: 10px;
+}
+section button.buy-button8 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -10px;
+  height: 20px;;
+  transition: transform 0.5s ease, color 0.4s ease;
+
+}
+section button.buy-button8:hover {
+  transform: scale(1.05);
+}
+div img.log {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+h2.log1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  left: 50px;
+}
+section div.tovar10 {
+  position: absolute;
+  left: 767px;
+  top: 40px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+  height: 400px;
+  display: none;
+}
+div p.log2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+section button.buy-button9 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  height: 20px;
+  top: -10px;
+
+  transition: transform 0.5s ease, color 0.4s ease;
+}
+section button.buy-button9:hover {
+  transform: scale(1.05);
+}
+div img.dom {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+h2.dom1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  position: relative;
+  left: 55px;
+}
+section div.tovar11 {
+  position: absolute;
+  left: 767px;
+  top: 40px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+  display: none;
+  height: 420px;
+}
+div p.dom2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+section button.buy-button10 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -20px;
+  height: 20px;
+
+  transition: transform 0.5s ease, color 0.4s ease;
+}
+section button.buy-button10:hover {
+  transform: scale(1.05);
+}
+div img.mks {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+h2.mks1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  left: 70px;
+}
+section div.tovar12 {
+  position: absolute;
+  top: 40px;
+  left: 767px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+  height: 430px;
+  display: none;
+}
+div p.mks2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 20px;
+}
+section button.buy-button11 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -10px;
+  height: 20px;
+
+  transition: transform 0.5s ease, color 0.4s ease;
+}
+section button.buy-button11:hover {
+  transform: scale(1.05);
+}
+section h2.kru1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+section img.kru {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+section div.tovar13 {
+  position: absolute;
+  left: 1135px;
+  top: 34px;
+  height: 440px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+  display: none;
+}
+section p.kru2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+h2.kru1 {
+  text-align: center;
+  margin-top: 10px;
+}
+section button.buy-button12 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -10px;
+  height: 20px;;
+  transition: transform 0.5s ease, color 0.4s ease;
+
+}
+section button.buy-button12:hover {
+  transform: scale(1.05);
+}
+section h2.och1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+section img.och {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+section div.tovar14 {
+  position: absolute;
+  left: 1135px;
+  top: 34px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+  display: none;
+}
+section p.och2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+h2.och1 {
+  text-align: center;
+  margin-top: 10px;
+}
+section button.buy-button13 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -10px;
+  height: 20px;;
+  transition: transform 0.5s ease, color 0.4s ease;
+
+}
+section button.buy-button13:hover {
+  transform: scale(1.05);
+}
+div img.tep {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+  height: 280px;
+}
+h2.tep1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  position: relative;
+  left: 88px;
+}
+section div.tovar15 {
+  position: absolute;
+  left: 1135px;
+  top: 34px;
+  height: 437px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+  display: none;
+}
+div p.tep2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+section button.buy-button14 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -10px;
+  height: 20px;
+
+  transition: transform 0.5s ease, color 0.4s ease;
+}
+section button.buy-button14:hover {
+  transform: scale(1.05);
+}
+section h2.bro1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+section img.bro {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+section div.tovar16 {
+  position: absolute;
+  left: 1135px;
+  top: 34px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+  height: 440px;
+  display: none;
+}
+section p.bro2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+h2.bro1 {
+  text-align: center;
+  margin-top: 10px;
+}
+section button.buy-button15 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -25px;
+  height: 20px;;
+  transition: transform 0.5s ease, color 0.4s ease;
+
+}
+section button.buy-button15:hover {
+  transform: scale(1.05);
+}
+
+section h2.bet1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+section img.bet {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+section div.tovar5 {
+  position: absolute;
+  left: 424px;
+  top: 35px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+  display: none;
+  height: 440px;
+}
+section p.bet2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+h2.bet1 {
+  text-align: center;
+  margin-top: 10px;
+}
+section button.buy-button4 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -10px;
+  height: 20px;;
+  transition: transform 0.5s ease, color 0.4s ease;
+
+}
+section button.buy-button4:hover {
+  transform: scale(1.05);
+}
+div img.gru {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+h2.gru1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  left: 80px;
+}
+section div.tovar6 {
+  position: absolute;
+  left: 424px;
+  top: 40px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+  height: 430px;
+  display: none;
+}
+div p.gru2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+section button.buy-button5 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  height: 20px;
+
+  transition: transform 0.5s ease, color 0.4s ease;
+}
+section button.buy-button5:hover {
+  transform: scale(1.05);
+}
+div img.sok {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+h2.sok1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  position: relative;
+  left: 25px;
+}
+section div.tovar7 {
+  position: absolute;
+  left: 424px;
+  top: 40px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+  display: none;
+  height: 425px;
+}
+div p.sok2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+section button.buy-button6 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: -20px;
+  height: 20px;
+
+  transition: transform 0.5s ease, color 0.4s ease;
+}
+section button.buy-button6:hover {
+  transform: scale(1.05);
+}
+div img.mot {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #20B2AA;
+}
+h2.mot1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  left: 70px;
+}
+section div.tovar8 {
+  position: absolute;
+  left: 424px;
+  top: 40px;
+  background: linear-gradient(#000000,#1E90FF);
+  border-radius: 16px;
+  width: 300px;
+  height: 430px;
+  display: none;
+}
+div p.mot2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+section button.buy-button7 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  position: relative;
+  left: 70px;
+  top: 10px;
+  height: 20px;
+
+  transition: transform 0.5s ease, color 0.4s ease;
+}
+section button.buy-button7:hover {
+  transform: scale(1.05);
+}
+h2.shop2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1px;
+}
+h3.shop3 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  top: -50px;
+  left: 530px;
+  z-index: 1;
+  width: 500px;
+  height: 100px;
+  background-color: rgba(181, 86, 210, 0.4);
+  border: none;
+  animation: up_down 3s ease-in-out 0s infinite alternate;
+  transition: transform 0.5s ease;
+}
+body {
+  overflow-x: hidden;
+  background-color: wheat;
+  background: linear-gradient(blue, wheat);
+}
+h2.itog {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  top: -130px;
+}
+h2.bank {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  left: 1100px;
+  background-color: #1E90FF;
+  height: 170px;
+  width: 300px;
+  border-radius: 10px;
+  top: -50px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+.card-form {
+  position: relative;
+  top: 100%;
+  margin-top: -410px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  border-radius: 15px;
+  width: 400px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  backdrop-filter: blur(3px);
+}
+
+.card-form h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.card-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.card-form input:focus {
+  outline: 2px solid #3b82f6;
+}
+
+.card-form .button-pay {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #3b82f6;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+  z-index: 9999;
+}
+.card-form .button-pay:hover {
+  transform: scale(1.05);
+}
+p.num {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  left: 1125px;
+  top: -230px;
+  font-size: 25px;
+}
+p.num2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  left: 1128px;
+  top: -250px;
+  font-size: 25px;
+}
+p.nameCard {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  left: 1220px;
+  top: -303px;
+  font-size: 25px;
+}
+img.chip {
+    position: relative;
+    width: 60px;
+    height: 50px;
+    left: 1130px;
+    top: -205px;
+    border-radius: 10px;
+}
+p.CVC1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  position: relative;
+  left: 1284px;
+  height: 10px;
+  width: 300px;
+  border-radius: 10px;
+  top: -430px;
+  font-size: 20px;
+}
+button.delete {
+  width: 300px;
+  height: 50px;
+  position: relative;
+  top: 450px;
+  left: 600px;
+  border: none;
+  border-radius: 8px;
+  background: #3b82f6;
+  color: white;
+  font-weight: bold;
+  z-index: 9999;
+  transition: transform 0.5s ease;
+
+}
+button.delete:hover {
+  transform: scale(1.05);
+}
+@media (max-width: 600px) {
+  p.p1 {
+    display: block;
+  }
+  section.shop {
+    height: 1000px;
+  }
+  .tovar1 {
+    position: relative;
+    margin-left: 800px;
+    margin-top: -550px;
+  }
+  .tovar2 {
+    position: relative;
+    margin-left: 800px;
+    margin-top: -550px;
+  }
+  .tovar3 {
+    position: relative;
+    margin-left: 800px;
+    margin-top: -550px;
+  }
+  .tovar4 {
+    position: relative;
+    margin-left: 800px;
+    margin-top: -550px;
+  }
+  .tovar5 {
+    position: relative;
+    margin-left: -90px;
+    margin-top: -24px;
+  }
+  .tovar6 {
+    position: relative;
+    margin-left: -90px;
+    margin-top: -24px;
+  }
+  .tovar7 {
+    position: relative;
+    margin-left: -90px;
+    margin-top: -24px;
+  }
+  .tovar8 {
+    position: relative;
+    margin-left: -90px;
+    margin-top: -24px;
+  }
+  .tovar9 {
+    position: relative;
+    margin-left: -767px;
+    margin-top: 500px;
+  }
+  .tovar10 {
+    position: relative;
+    margin-left: -767px;
+    margin-top: 500px;
+  }
+  .tovar11 {
+    position: relative;
+    margin-left: -767px;
+    margin-top: 500px;
+  }
+  .tovar12 {
+    position: relative;
+    margin-left: -767px;
+    margin-top: 500px;
+  }
+  .tovar13 {
+    position: relative;
+    margin-left: -820px;
+    margin-top: 500px;
+  }
+  .tovar14 {
+    position: relative;
+    margin-left: -820px;
+    margin-top: 500px;
+  }
+  .tovar15 {
+    position: relative;
+    margin-left: -820px;
+    margin-top: 500px;
+  }
+  .tovar16 {
+    position: relative;
+    margin-left: -820px;
+    margin-top: 500px;
+  }
+  button.delete {
+    position: relative;
+    top: 980px;
+    left: 150px;
+  }
+  h2.bank {
+    position: relative;
+    margin-left: -950px;
+    margin-top: 400px;
+  }
+  img.chip {
+    position: relative;
+    margin-left: -950px;
+    margin-top: 10px;
+  }
+  p.num {
+    position: relative;
+    margin-left: -950px;
+    margin-top: 20px;
+  }
+  p.num2 {
+    position: relative;
+    margin-left: -950px;
+    margin-top: 20px;
+  }
+  p.nameCard {
+    position: relative;
+    margin-left: -950px;
+    margin-top: 20px;
+  }
+  p.CVC1 {
+    position: relative;
+    margin-left: -950px;
+    margin-top: 20px;
+  }
+  form.card-form {
+    position: relative;
+    margin-top: -750px;
+  }
+  body {
+    position: relative;
+    top: -200px;
+  }
+}
